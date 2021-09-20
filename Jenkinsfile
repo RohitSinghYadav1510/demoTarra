@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Git Fetch') {
             steps {
-                git 'https://github.com/RohitSinghYadav1510/CreateNodes.git'
+                git 'https://github.com/RohitSinghYadav1510/demoTarra.git'
             }
         }
          stage('Initialize Infrastructure') {
