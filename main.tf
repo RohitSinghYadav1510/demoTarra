@@ -111,7 +111,7 @@ tags = {
 }
 
 
-
+/*
 resource "null_resource" "nullremote1" {
 depends_on = [aws_instance.node2]
 connection {
@@ -128,3 +128,4 @@ provisioner "file" {
     destination = "/home/user1/hosts"
        }
 }
+*/
